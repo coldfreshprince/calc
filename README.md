@@ -1,16 +1,25 @@
- <input id="num1"/>
- <p>+</p>
- <input id="num2"/>
- <button onclick="func()">равняется...</button>
+<input id="num1"/>
 
- <p id="result"></p>
+<div id="operator_btns">
+  <button id="plus" class="operator">+</button>
+  <button id="minus" class="operator">-</button>
+  <button id="times" class="operator">x</button>
+  <button id="divide" class="operator">:</button>
+</div>
 
- <script>
-    function func(){
-          var num1 = Number(document.getElementById("num1").value);
-          var num2 = Number(document.getElementById("num2").value);
-          var result = num1 + num2;
+<input id="num2"/>
 
-          document.getElementById("result").innerHTML = result;
-          }
- </script>
+<button onclick="func()">равняется...</button>
+
+<p id="result"></p>
+
+
+<script>
+  function func(){
+    var num1 = Number(document.getElementById("num1").value);
+    var num2 = Number(document.getElementById("num2").value);
+    result = ???
+
+    document.getElementById("result").innerHTML = result;
+    }
+</script>
